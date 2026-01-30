@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | A Journey of Purpose</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <meta name="description"
+        content="A scholarship portfolio documenting a journey of resilience, learning, and community impact.">
+</head>
+
+<body>
+    <div class="masary-masterpiece-bg">
+        <div class="gradient-sphere sphere-1"></div>
+        <div class="gradient-sphere sphere-2"></div>
+        <div class="gradient-sphere sphere-3"></div>
+        <div class="noise-overlay"></div>
+    </div>
+    <!-- Header -->
+    <header class="site-header">
+        <div class="container header-container">
+            <div class="site-branding">
+                <span class="site-title">Portfolio</span>
+            </div>
+            <nav class="site-nav">
+                <!-- Language Toggle -->
+                <button id="lang-toggle" class="lang-toggle" aria-label="Switch Language">
+                    <span class="toggle-track">
+                        <span class="toggle-indicator"></span>
+                        <span class="toggle-text en-text">EN</span>
+                        <span class="toggle-text ar-text">ع</span>
+                    </span>
+                </button>
+
+                <!-- Language Tooltip (First-time visitor guide) -->
+                <div id="lang-tooltip" class="lang-tooltip" role="tooltip" aria-hidden="true">
+                    <div class="tooltip-arrow"></div>
+                    <div class="tooltip-content">
+                        <p class="tooltip-text" data-i18n="tooltip.lang.text">
+                            Select your language to explore the site in Arabic or English.
+                        </p>
+                        <button class="tooltip-dismiss" data-i18n="tooltip.lang.button">Got it</button>
+                    </div>
+                </div>
+
+                <!-- Toggle Button -->
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Dark Mode">
+                    <span class="toggle-track">
+                        <span class="toggle-indicator"></span>
+                        <span class="toggle-icon sun-icon"><i class="fa-solid fa-sun"></i></span>
+                        <span class="toggle-icon moon-icon"><i class="fa-solid fa-moon"></i></span>
+                    </span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Section 1: Hero (Intro) -->
+    <section class="hero-section" id="hero">
+        <div class="container hero-container">
+            <div class="photo-container fade-in">
+                <img src="img/me.png" alt="Portrait of the student" data-i18n-alt="hero.alt" class="profile-photo">
+            </div>
+            <div class="hero-content fade-in-up">
+                <h1 data-i18n="hero.title">Education as a foundation for responsibility.</h1>
+                <p class="intro-text" data-i18n="hero.intro">
+                    <!-- Intro text -->
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Step 1: Hard Beginnings -->
+    <section class="narrative-section" id="step1">
+        <div class="container">
+            <h2 class="section-title fade-in" data-i18n="step1.title">Chapter One: Hard Beginnings</h2>
+            <div class="narrative-content fade-in-up">
+                <div class="text-block">
+                    <p data-i18n="step1.p1"></p>
+                    <p data-i18n="step1.p2"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Step 2: Achievement Despite Conditions -->
+    <section class="achievements-section" id="step2">
+        <div class="container">
+            <h2 class="section-title fade-in" data-i18n="step2.title">إنجازات دفعتني للأمام رغم الظروف</h2>
+
+            <!-- Row 1: Sports -->
+            <div class="showcase-section fade-in-up">
+                <div class="showcase-header">
+                    <h3 class="showcase-title" data-i18n="step2.row1.title">إنجازي في الرياضة (خصوصًا التايكوندو)</h3>
+                    <div class="showcase-nav">
+                        <button class="nav-btn prev-btn" aria-label="Previous image"><i
+                                class="fa-solid fa-chevron-left"></i></button>
+                        <button class="nav-btn next-btn" aria-label="Next image"><i
+                                class="fa-solid fa-chevron-right"></i></button>
+                    </div>
+                </div>
+                <div class="showcase-track-wrapper">
+                    <div class="showcase-track">
+                        <div class="showcase-card" tabindex="0">
+                            <img src="img/sport1.jpg" alt="Sports Achievement 1" loading="lazy">
+                            <div class="hover-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                        </div>
+                        <div class="showcase-card" tabindex="0">
+                            <img src="img/sport2.jpg" alt="Sports Achievement 2" loading="lazy">
+                            <div class="hover-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                        </div>
+                        <div class="showcase-card" tabindex="0">
+                            <img src="img/sport3.jpg" alt="Sports Achievement 3" loading="lazy">
+                            <div class="hover-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                        </div>
+                        <div class="showcase-card" tabindex="0">
+                            <img src="img/sport4.jpg" alt="Sports Achievement 4" loading="lazy">
+                            <div class="hover-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                        </div>
+                        <div class="showcase-card" tabindex="0">
+                            <img src="img/sport5.jpg" alt="Sports Achievement 5" loading="lazy">
+                            <div class="hover-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                        </div>
+                        <div class="showcase-card" tabindex="0">
+                            <img src="img/sport6.jpg" alt="Sports Achievement 6" loading="lazy">
+                            <div class="hover-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Row 2: Skills and Hobbies -->
+            <div class="showcase-section fade-in-up">
+                <div class="showcase-header">
+                    <h3 class="showcase-title" data-i18n="step2.row2.title">مهارات ومواهب متنوعة رغم قلة الموارد</h3>
+                    <div class="showcase-nav">
+                        <button class="nav-btn prev-btn" aria-label="Previous image"><i
+                                class="fa-solid fa-chevron-left"></i></button>
+                        <button class="nav-btn next-btn" aria-label="Next image"><i
+                                class="fa-solid fa-chevron-right"></i></button>
+                    </div>
+                </div>
+                <div class="showcase-track-wrapper">
+                    <div class="showcase-track">
+                        <div class="showcase-card" tabindex="0">
+                            <img src="img/hop1.jpg" alt="Skills and Hobbies 1" loading="lazy">
+                            <div class="hover-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                        </div>
+                        <div class="showcase-card" tabindex="0">
+                            <img src="img/hop2.jpg" alt="Skills and Hobbies 2" loading="lazy">
+                            <div class="hover-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                        </div>
+                        <div class="showcase-card" tabindex="0">
+                            <img src="img/hop3.jpg" alt="Skills and Hobbies 3" loading="lazy">
+                            <div class="hover-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                        </div>
+                        <div class="showcase-card" tabindex="0">
+                            <img src="img/hop4.jpg" alt="Skills and Hobbies 4" loading="lazy">
+                            <div class="hover-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                        </div>
+                        <div class="showcase-card" tabindex="0">
+                            <img src="img/hop5.jpg" alt="Skills and Hobbies 5" loading="lazy">
+                            <div class="hover-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Row 3: Quran Memorization -->
+            <div class="showcase-section fade-in-up">
+                <div class="showcase-header">
+                    <h3 class="showcase-title" data-i18n="step2.row3.title">حفظ القرآن الكريم كاملًا</h3>
+                    <div class="showcase-nav">
+                        <button class="nav-btn prev-btn" aria-label="Previous image"><i
+                                class="fa-solid fa-chevron-left"></i></button>
+                        <button class="nav-btn next-btn" aria-label="Next image"><i
+                                class="fa-solid fa-chevron-right"></i></button>
+                    </div>
+                </div>
+                <div class="showcase-track-wrapper">
+                    <div class="showcase-track">
+                        <div class="showcase-card" tabindex="0">
+                            <img src="img/arg1.jpg" alt="Quran Memorization 1" loading="lazy">
+                            <div class="hover-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                        </div>
+                        <div class="showcase-card" tabindex="0">
+                            <img src="img/arg2.jpg" alt="Quran Memorization 2" loading="lazy">
+                            <div class="hover-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                        </div>
+                        <div class="showcase-card" tabindex="0">
+                            <img src="img/arg3.jpg" alt="Quran Memorization 3" loading="lazy">
+                            <div class="hover-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                        </div>
+                        <div class="showcase-card" tabindex="0">
+                            <img src="img/arg4.jpg" alt="Quran Memorization 4" loading="lazy">
+                            <div class="hover-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Row 4: Teacher Certificates and Other Achievements -->
+            <div class="showcase-section fade-in-up">
+                <div class="showcase-header">
+                    <h3 class="showcase-title" data-i18n="step2.row4.title">شهادات المدرسين ومهارات أخرى</h3>
+                    <div class="showcase-nav">
+                        <button class="nav-btn prev-btn" aria-label="Previous image"><i
+                                class="fa-solid fa-chevron-left"></i></button>
+                        <button class="nav-btn next-btn" aria-label="Next image"><i
+                                class="fa-solid fa-chevron-right"></i></button>
+                    </div>
+                </div>
+                <div class="showcase-track-wrapper">
+                    <div class="showcase-track">
+                        <div class="showcase-card" tabindex="0">
+                            <img src="img/1.jpg" alt="Certificate 1" loading="lazy">
+                            <div class="hover-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                        </div>
+                        <div class="showcase-card" tabindex="0">
+                            <img src="img/2.jpg" alt="Certificate 2" loading="lazy">
+                            <div class="hover-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                        </div>
+                        <div class="showcase-card" tabindex="0">
+                            <img src="img/3.jpg" alt="Certificate 3" loading="lazy">
+                            <div class="hover-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                        </div>
+                        <div class="showcase-card" tabindex="0">
+                            <img src="img/4.jpg" alt="Certificate 4" loading="lazy">
+                            <div class="hover-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                        </div>
+                        <div class="showcase-card" tabindex="0">
+                            <img src="img/5.jpg" alt="Certificate 5" loading="lazy">
+                            <div class="hover-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                        </div>
+                        <div class="showcase-card" tabindex="0">
+                            <img src="img/6.jpg" alt="Certificate 6" loading="lazy">
+                            <div class="hover-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                        </div>
+                        <div class="showcase-card" tabindex="0">
+                            <img src="img/7.jpg" alt="Certificate 7" loading="lazy">
+                            <div class="hover-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                        </div>
+                        <div class="showcase-card" tabindex="0">
+                            <img src="img/8.jpg" alt="Certificate 8" loading="lazy">
+                            <div class="hover-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                        </div>
+                        <div class="showcase-card" tabindex="0">
+                            <img src="img/9.jpg" alt="Certificate 9" loading="lazy">
+                            <div class="hover-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                        </div>
+                        <div class="showcase-card" tabindex="0">
+                            <img src="img/10.jpg" alt="Certificate 10" loading="lazy">
+                            <div class="hover-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                        </div>
+                        <div class="showcase-card" tabindex="0">
+                            <img src="img/11.jpg" alt="Certificate 11" loading="lazy">
+                            <div class="hover-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                        </div>
+                        <div class="showcase-card" tabindex="0">
+                            <img src="img/12.jpg" alt="Certificate 12" loading="lazy">
+                            <div class="hover-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                        </div>
+                        <div class="showcase-card" tabindex="0">
+                            <img src="img/13.jpg" alt="Certificate 13" loading="lazy">
+                            <div class="hover-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                        </div>
+                        <div class="showcase-card" tabindex="0">
+                            <img src="img/14.jpg" alt="Certificate 14" loading="lazy">
+                            <div class="hover-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                        </div>
+                        <div class="showcase-card" tabindex="0">
+                            <img src="img/15.jpg" alt="Certificate 15" loading="lazy">
+                            <div class="hover-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                        </div>
+                        <div class="showcase-card" tabindex="0">
+                            <img src="img/16.jpg" alt="Certificate 16" loading="lazy">
+                            <div class="hover-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                        </div>
+                        <div class="showcase-card" tabindex="0">
+                            <img src="img/17.jpg" alt="Certificate 17" loading="lazy">
+                            <div class="hover-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                        </div>
+                        <div class="showcase-card" tabindex="0">
+                            <img src="img/18.jpg" alt="Certificate 18" loading="lazy">
+                            <div class="hover-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                        </div>
+                        <div class="showcase-card" tabindex="0">
+                            <img src="img/19.jpg" alt="Certificate 19" loading="lazy">
+                            <div class="hover-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                        </div>
+                        <div class="showcase-card" tabindex="0">
+                            <img src="img/20.jpg" alt="Certificate 20" loading="lazy">
+                            <div class="hover-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                        </div>
+                        <div class="showcase-card" tabindex="0">
+                            <img src="img/21.jpg" alt="Certificate 21" loading="lazy">
+                            <div class="hover-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                        </div>
+                        <div class="showcase-card" tabindex="0">
+                            <img src="img/22.jpg" alt="Certificate 22" loading="lazy">
+                            <div class="hover-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                        </div>
+                        <div class="showcase-card" tabindex="0">
+                            <img src="img/23.jpg" alt="Certificate 23" loading="lazy">
+                            <div class="hover-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                        </div>
+                        <div class="showcase-card" tabindex="0">
+                            <img src="img/24.jpg" alt="Certificate 24" loading="lazy">
+                            <div class="hover-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                        </div>
+                        <div class="showcase-card" tabindex="0">
+                            <img src="img/25.jpg" alt="Certificate 25" loading="lazy">
+                            <div class="hover-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                        </div>
+                        <div class="showcase-card" tabindex="0">
+                            <img src="img/26.jpg" alt="Certificate 26" loading="lazy">
+                            <div class="hover-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Step 3: The Turning Question -->
+    <section class="narrative-section" id="step3">
+        <div class="container">
+            <h2 class="section-title fade-in" data-i18n="step3.title">The Turning Question</h2>
+            <div class="narrative-content fade-in-up">
+                <div class="text-block">
+                    <p class="highlight-text" data-i18n="step3.question">
+                        If I managed to learn from free resources, why are many others still lost?
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Step 4: The Answer: Massary -->
+    <section class="massary-section" id="step4">
+        <div class="container">
+            <h2 class="section-title fade-in" data-i18n="step4.title">The Answer: Massary</h2>
+            <div class="massary-content fade-in-up">
+                <p class="lead" data-i18n="step4.lead">
+                    Massary is a response, not a startup.
+                </p>
+                <div class="massary-details">
+                    <p data-i18n="step4.p1">
+                        <!-- Content -->
+                    </p>
+                    <p data-i18n="step4.p2">
+                        <!-- Content -->
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Step 5: What Massary Contains -->
+    <section class="features-section" id="step5" style="padding: 4rem 0;">
+        <div class="container">
+            <h2 class="section-title fade-in" data-i18n="step5.title">Concrete Proof</h2>
+            <div class="features-wrapper fade-in-up">
+                <ul class="feature-list">
+                    <li class="feature-item">
+                        <i class="fa-solid fa-check"></i>
+                        <span data-i18n="step5.feat1">1200+ organized videos</span>
+                    </li>
+                    <li class="feature-item">
+                        <i class="fa-solid fa-check"></i>
+                        <span data-i18n="step5.feat2">Educational library with fair pricing</span>
+                    </li>
+                    <li class="feature-item">
+                        <i class="fa-solid fa-check"></i>
+                        <span data-i18n="step5.feat3">Dream Nursery</span>
+                    </li>
+                    <li class="feature-item">
+                        <i class="fa-solid fa-check"></i>
+                        <span data-i18n="step5.feat4">Filtered YouTube (Massary TV)</span>
+                    </li>
+                    <li class="feature-item">
+                        <i class="fa-solid fa-check"></i>
+                        <span data-i18n="step5.feat5">Motivational messages</span>
+                    </li>
+                    <li class="feature-item">
+                        <i class="fa-solid fa-check"></i>
+                        <span data-i18n="step5.feat6">Random learning system</span>
+                    </li>
+                    <li class="feature-item">
+                        <i class="fa-solid fa-check"></i>
+                        <span data-i18n="step5.feat7">Rare rewards</span>
+                    </li>
+                    <li class="feature-item">
+                        <i class="fa-solid fa-check"></i>
+                        <span data-i18n="step5.feat8">Course completion recognition</span>
+                    </li>
+                    <li class="feature-item">
+                        <i class="fa-solid fa-check"></i>
+                        <span data-i18n="step5.feat9">Community (Massary Youth Family)</span>
+                    </li>
+                    <li class="feature-item">
+                        <i class="fa-solid fa-check"></i>
+                        <span data-i18n="step5.feat10">Direct message from founder</span>
+                    </li>
+                    <li class="feature-item">
+                        <i class="fa-solid fa-check"></i>
+                        <span data-i18n="step5.feat11">Real user database</span>
+                    </li>
+                </ul>
+                <p style="text-align: center; margin-bottom: 2rem; font-style: italic; color: var(--text-light);"
+                    data-i18n="step5.note">
+                    Built individually with minimal resources.
+                </p>
+                <div class="cta-container">
+                    <a href="https://mohamed-beshir-x.github.io/Massary/" target="_blank" class="btn-primary"
+                        data-i18n="step5.btn">Try
+                        Massary</a>
+                </div>
+            </div>
+
+        </div>
+        <div class="showcase-section fade-in-up">
+            <div class="showcase-header">
+                <h3 class="showcase-title" data-i18n="showcase.title">Platform Tour</h3>
+                <div class="showcase-nav">
+                    <button class="nav-btn prev-btn" aria-label="Previous image"><i
+                            class="fa-solid fa-chevron-left"></i></button>
+                    <button class="nav-btn next-btn" aria-label="Next image"><i
+                            class="fa-solid fa-chevron-right"></i></button>
+                </div>
+            </div>
+            <div class="showcase-track-wrapper">
+                <div class="showcase-track">
+                    <!-- Image Cards -->
+                    <div class="showcase-card" tabindex="0">
+                        <img src="img/fet1.png.jpg" alt="Platform Screenshot 1" loading="lazy">
+                        <div class="hover-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                    </div>
+                    <div class="showcase-card" tabindex="0">
+                        <img src="img/fet2.png.jpg" alt="Platform Screenshot 2" loading="lazy">
+                        <div class="hover-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                    </div>
+                    <div class="showcase-card" tabindex="0">
+                        <img src="img/fet3.png.jpg" alt="Platform Screenshot 3" loading="lazy">
+                        <div class="hover-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                    </div>
+                    <div class="showcase-card" tabindex="0">
+                        <img src="img/fet4.png.jpg" alt="Platform Screenshot 4" loading="lazy">
+                        <div class="hover-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                    </div>
+                    <div class="showcase-card" tabindex="0">
+                        <img src="img/fet5.png.jpg" alt="Platform Screenshot 5" loading="lazy">
+                        <div class="hover-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                    </div>
+                    <div class="showcase-card" tabindex="0">
+                        <img src="img/fet6.png.jpg" alt="Platform Screenshot 6" loading="lazy">
+                        <div class="hover-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                    </div>
+                    <div class="showcase-card" tabindex="0">
+                        <img src="img/fet7.png.jpg" alt="Platform Screenshot 7" loading="lazy">
+                        <div class="hover-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                    </div>
+                    <div class="showcase-card" tabindex="0">
+                        <img src="img/fet8.png.jpg" alt="Platform Screenshot 8" loading="lazy">
+                        <div class="hover-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                    </div>
+                    <div class="showcase-card" tabindex="0">
+                        <img src="img/fet9.png.jpg" alt="Platform Screenshot 9" loading="lazy">
+                        <div class="hover-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                    </div>
+                    <div class="showcase-card" tabindex="0">
+                        <img src="img/fet10.png.jpg" alt="Platform Screenshot 10" loading="lazy">
+                        <div class="hover-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                    </div>
+                    <div class="showcase-card" tabindex="0">
+                        <img src="img/fet11.png.jpg" alt="Platform Screenshot 11" loading="lazy">
+                        <div class="hover-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                    </div>
+                    <div class="showcase-card" tabindex="0">
+                        <img src="img/fet12.png.jpg" alt="Platform Screenshot 12" loading="lazy">
+                        <div class="hover-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                    </div>
+                    <div class="showcase-card" tabindex="0">
+                        <img src="img/fet13.png.jpg" alt="Platform Screenshot 13" loading="lazy">
+                        <div class="hover-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                    </div>
+                    <div class="showcase-card" tabindex="0">
+                        <img src="img/fet14.png.jpg" alt="Platform Screenshot 14" loading="lazy">
+                        <div class="hover-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                    </div>
+                    <div class="showcase-card" tabindex="0">
+                        <img src="img/fet15.png.jpg" alt="Platform Screenshot 15" loading="lazy">
+                        <div class="hover-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                    </div>
+                    <div class="showcase-card" tabindex="0">
+                        <img src="img/fet16.png.jpg" alt="Platform Screenshot 16" loading="lazy">
+                        <div class="hover-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                    </div>
+                    <div class="showcase-card" tabindex="0">
+                        <img src="img/fet17.png.jpg" alt="Platform Screenshot 17" loading="lazy">
+                        <div class="hover-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                    </div>
+                    <div class="showcase-card" tabindex="0">
+                        <img src="img/fet18.png.jpg" alt="Platform Screenshot 18" loading="lazy">
+                        <div class="hover-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                    </div>
+                    <div class="showcase-card" tabindex="0">
+                        <img src="img/fet19.png.jpg" alt="Platform Screenshot 19" loading="lazy">
+                        <div class="hover-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Image Modal -->
+        <div id="image-modal" class="image-modal" aria-hidden="true">
+            <div class="modal-overlay"></div>
+            <div class="modal-content">
+                <button class="modal-close" aria-label="Close modal">&times;</button>
+                <div class="modal-image-wrapper">
+                    <img src="" alt="" class="modal-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Step 6: A Deliberate Pause -->
+    <section class="narrative-section" id="step6">
+        <div class="container">
+            <h2 class="section-title fade-in" data-i18n="step6.title">A Deliberate Pause</h2>
+            <div class="narrative-content fade-in-up">
+                <div class="text-block">
+                    <p data-i18n="step6.p1"></p>
+                    <p data-i18n="step6.p2"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Step 7: Clear Future Vision -->
+    <section class="narrative-section" id="step7">
+        <div class="container">
+            <h2 class="section-title fade-in" data-i18n="step7.title">Vision</h2>
+            <div class="narrative-content fade-in-up">
+                <div class="text-block">
+                    <ul class="vision-list" style="list-style-type: none; margin-top: 1rem;">
+                        <li style="margin-bottom: 0.8rem; display: flex; align-items: center; gap: 10px;">
+                            <i class="fa-solid fa-arrow-right"
+                                style="color: var(--primary-soft); font-size: 0.8em;"></i>
+                            <span data-i18n="step7.goal1">Excel in high school first.</span>
+                        </li>
+                        <li style="margin-bottom: 0.8rem; display: flex; align-items: center; gap: 10px;">
+                            <i class="fa-solid fa-arrow-right"
+                                style="color: var(--primary-soft); font-size: 0.8em;"></i>
+                            <span data-i18n="step7.goal2">Specialize deeply in programming.</span>
+                        </li>
+                        <li style="margin-bottom: 0.8rem; display: flex; align-items: center; gap: 10px;">
+                            <i class="fa-solid fa-arrow-right"
+                                style="color: var(--primary-soft); font-size: 0.8em;"></i>
+                            <span data-i18n="step7.goal3">Build a strong team for Massary.</span>
+                        </li>
+                        <li style="margin-bottom: 0.8rem; display: flex; align-items: center; gap: 10px;">
+                            <i class="fa-solid fa-arrow-right"
+                                style="color: var(--primary-soft); font-size: 0.8em;"></i>
+                            <span data-i18n="step7.goal4">Reach the first 1,000 learners.</span>
+                        </li>
+                        <li style="margin-bottom: 0.8rem; display: flex; align-items: center; gap: 10px;">
+                            <i class="fa-solid fa-arrow-right"
+                                style="color: var(--primary-soft); font-size: 0.8em;"></i>
+                            <span data-i18n="step7.goal5">Help every young person who feels lost.</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Closing Section -->
+    <section class="closing-section" id="closing">
+        <div class="container center-text">
+            <div class="link-wrapper fade-in-up" style="margin-bottom: 3rem;">
+                <p data-i18n="explore.p1" style="margin-bottom: 1rem;">For a practical understanding of my technical
+                    capabilities:</p>
+                <a href="https://github.com/Mohamed-Beshir-X" target="_blank" class="btn-minimal"
+                    data-i18n="explore.github">View GitHub
+                    Profile</a>
+            </div>
+            <p class="final-thought fade-in" data-i18n="closing.msg">
+                This student understands responsibility, impact, and purpose.
+            </p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p data-i18n="footer.copy">&copy; 2026. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="https://github.com/Mohamed-Beshir-X" target="_blank" data-i18n="footer.github">GitHub</a>
+                    <a href=https://mail.google.com/mail/?view=cm&fs=1&to=mohamedomar6011@gmail.com" target="_blank"
+                        data-i18n="footer.contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
